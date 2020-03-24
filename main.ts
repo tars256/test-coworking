@@ -11,7 +11,7 @@ for (let Index = 0; Index <= 255; Index++) {
     strip.show()
     basic.pause(20)
     basic.showLeds(`
-        . . . . .
+        . . . # #
         # . # . .
         . . . . .
         . # . . .
