@@ -12,9 +12,9 @@ for (let Index = 0; Index <= 255; Index++) {
     basic.pause(20)
     basic.showLeds(`
         . . . . .
-        . . # . .
+        # . # . .
         . . . . .
-        . . . . .
+        . # . . .
         . . . . .
         `)
 }
