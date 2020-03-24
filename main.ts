@@ -10,6 +10,13 @@ for (let Index = 0; Index <= 255; Index++) {
     strip.setPixelColor(Index, neopixel.rgb(Rotanteil, Grünanteil, Blauanteil))
     strip.show()
     basic.pause(20)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 }
 basic.pause(5000)
 strip.clearMatrix()
